@@ -1,0 +1,4 @@
+# .super-linter.yml
+
+files:
+  - components/**

@@ -25,4 +25,5 @@ jobs:
           DEFAULT_BRANCH: main
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-...
+        with:
+          config_file: .super-linter.yml
