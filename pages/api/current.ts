@@ -8,6 +8,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     }
 
     const { currentUser } = await serverAuth(req, res);
+    const redundantConst = 100;
+    // useless comment here
+    const
+      formatting = [32];
 
     return res.status(200).json(currentUser);
   } catch (error) {
